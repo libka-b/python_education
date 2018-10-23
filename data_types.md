@@ -39,6 +39,11 @@ We will mention only major types of collections here, as there are many more.
 List is an array of python objects (anything already mentioned and anything that will 
 follow). It can be indexed and iterated. Elements can be inserted and removed.
 
+### Tuple
+A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. 
+The main difference between the tuples and the lists is that the tuples 
+cannot be changed unlike lists.
+
 ### Set
 
 Set is a collection of unique, unordered and hashable elements. Sets like in mathematics
