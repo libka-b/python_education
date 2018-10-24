@@ -1,6 +1,6 @@
 ##  print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
-Jak jsme si na dnesni hodine rekli, tak print je "vypisovaci" funkce.
+`print` is a function used to create output to your console
 
 ```python
 print("Hello world!")
@@ -17,10 +17,10 @@ print(a, b)
 
 ![Hello world output](./images/hw_out_2.png)
 
-Jak vidime, tak defaultne nam print oddeluje jednotlive promenne mezerou, 
-ale co kdyz si reknu, ze to tak nechci?
+By default variables are separated by a single space, but we can specify 
+a different separator.
 
-Mame k tomu krasny parametr "sep".
+To do so, we have a parameter `sep`
 
 ```python
 a = "Ahoj"
@@ -32,17 +32,19 @@ print(a, b, sep=":-)")
 
 ![Hello world output](./images/hw_out_3.png)
 
-Defaultne nam Python kazdy print ukoncuje znakem "\n" - newline.
-Printu toto nastaveni muzeme menit parametrem "end".
+By default, every print is ended with a newline character `\n`, but we can specify
+a different print ending.
+
+Change this setting using parameter `end`
 
 ```python
-print("Ahoj", end="")  #  ukoncuj print prazdnym stringem
+print("Ahoj", end="")  #  ukoncuj prazdym stringem
 print("Pythonyri")  #  ukoncuj defaultne
 print("Jak se mate?", end=":-)\n")
 ```
 
 ![Hello world output](./images/hw_out_4.png)
 
-Poslednim parametrem je "file", blize se s nim seznamime na cviceni "Prace se soubory".
+Last parameter if `file`, we will get familiar with it on lesson "Work with files"
 
 [Dokumentace](https://docs.python.org/3/library/functions.html#print)
