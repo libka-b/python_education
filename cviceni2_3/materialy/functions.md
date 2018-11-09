@@ -1,4 +1,4 @@
-#Funkce pythonu
+# Funkce pythonu
 
 ## Zapis funkce
 Funkci v pythonu definuje klicove slovo def:
