@@ -1,3 +1,7 @@
+"""
+NIKDY NEPOUZIVAT !!!!
+"""
+
 
 class Base:
     def __init__(self):
